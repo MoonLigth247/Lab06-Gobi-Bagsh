@@ -6,10 +6,15 @@
 # Орчин
 
 debain13@debian:~/Lab06-Gobi-Bagsh$ dpkg -l git cmake g++ make | grep '^ii' | awk '{print $2, $3}'
+
 cmake 3.31.6-2
+
 g++ 4:14.2.0-1
+
 git 1:2.47.3-0+deb13u1
+
 make 4.4.1-2
+
 
 ---
 
